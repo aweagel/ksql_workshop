@@ -26,7 +26,7 @@ We'll use Docker for installing and running Kafka, KSQL, etc.
 
 macOS users can install Docker via [Homebrew](https://brew.sh/) by running `brew cask install docker`.
 
-Alternatively, you can use the [official Docker Community Edition download links](<(https://hub.docker.com/search?offering=community&type=edition)>) for other supported operating systems.
+Alternatively, you can see the [Docker Community Edition download page](https://hub.docker.com/search?offering=community&type=edition) for other supported operating systems.
 
 #### Docker Memory
 
