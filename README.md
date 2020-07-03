@@ -75,7 +75,7 @@ http://localhost:9021/
 
 The **Clusters** page should look like this:
 
-<img src="./img/clusters.png" alt="Kafka clusters" width="500" style="display: block; margin-left: auto; margin-right: auto;" />
+<img src="https://raw.githubusercontent.com/aweagel/ksql_workshop/master/img/clusters.png" alt="Kafka clusters" width="500" style="display: block; margin-left: auto; margin-right: auto;" />
 
 Click into the cluster named `controlcenter.cluster`.
 
@@ -95,7 +95,7 @@ But what does that mean? Let's find out.
 
 ### Architecture
 
-<img src="./img/ksql_architecture.png" alt="KSQL Architecture" width="600" style="display: block; margin-left: auto; margin-right: auto;" />
+<img src="https://raw.githubusercontent.com/aweagel/ksql_workshop/master/img/ksql_architecture.png" alt="KSQL Architecture" width="600" style="display: block; margin-left: auto; margin-right: auto;" />
 
 #### KSQL Server
 
@@ -540,7 +540,7 @@ CREATE SINK CONNECTOR `workshop-es-sink-connector` WITH (
 
 Visit http://localhost:5601 to open Kibana. If prompted to view sample data, click **Explore on my own**. Within the **Discover** tab, set the `Index pattern` to `customers_enriched` and click **Next step**. Then click **Create index pattern** and click on the **Discover** tab again:
 
-<img src="./img/kibana_results.png" alt="Kibana results" width="600" style="display: block; margin-left: auto; margin-right: auto;" />
+<img src="https://raw.githubusercontent.com/aweagel/ksql_workshop/master/img/kibana_results.png" alt="Kibana results" width="600" style="display: block; margin-left: auto; margin-right: auto;" />
 
 Sure enough, we've got data in Elasticsearch!
 
@@ -600,11 +600,11 @@ As you'd expect, the record no longer appears once you click **Refresh** in Kiba
 
 Let's take a step back. In this introductory tutorial, we've taken what would normally require an elaborate stream processing system such as the following:
 
-<img src="./img/without_ksqldb.png" alt="Without ksqlDB" width="600" style="display: block; margin-left: auto; margin-right: auto;" />
+<img src="https://raw.githubusercontent.com/aweagel/ksql_workshop/master/img/without_ksqldb.png" alt="Without ksqlDB" width="600" style="display: block; margin-left: auto; margin-right: auto;" />
 
 and achieved the same thing with just KSQL, within a matter of minutes:
 
-<img src="./img/with_ksqldb.png" alt="With ksqlDB" width="600" style="display: block; margin-left: auto; margin-right: auto;" />
+<img src="https://raw.githubusercontent.com/aweagel/ksql_workshop/master/img/with_ksqldb.png" alt="With ksqlDB" width="600" style="display: block; margin-left: auto; margin-right: auto;" />
 
 (The second diagram does not include a downstream data sink, so technically we accomplished even a bit more than what is depicted here).
 
