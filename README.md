@@ -280,7 +280,7 @@ GROUP BY wu.userid;
 
 Now run the following query to continually observe the changes to the `User_1` record:
 
-```
+```sql
 SELECT * FROM WORKSHOP_USERS_TBL WHERE ROWKEY = 'User_1' EMIT CHANGES;
 ```
 
@@ -288,7 +288,7 @@ Notice that, as with the stream example, the **Run** button becomes de-activated
 
 Let's try an non-continuous query against the same table (no `EMIT CHANGES`). Run the following a few times:
 
-```
+```sql
 SELECT * FROM WORKSHOP_USERS_TBL WHERE ROWKEY = 'User_1';
 ```
 
