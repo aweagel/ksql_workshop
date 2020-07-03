@@ -2,7 +2,7 @@
 
 ## Introduction
 
-[KSQL](https://ksqldb.io/) (recently rebranded ksqlDB—we'll use the two terms interchangably) is an end-to-end **event streaming platform**. During this workshop we'll dig into what that means and why it matters.
+[KSQL](https://ksqldb.io/) (recently rebranded ksqlDB—we'll use the two terms interchangably) is an end-to-end **event streaming platform**. In this post we'll dig into what that means and why it matters.
 
 In a nutshell, ksqlDB allows you to do the following, all with a familiar SQL syntax:
 
@@ -12,7 +12,7 @@ In a nutshell, ksqlDB allows you to do the following, all with a familiar SQL sy
 4. Directly serve lookups against these materialized views
 5. "Sink" data into other downstream systems (e.g. search indexing, caching, data warehousing, etc)
 
-We'll explore all of this functionality during this workshop.
+We'll explore all of this functionality below.
 
 ## Setup
 
